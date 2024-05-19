@@ -1,0 +1,50 @@
+/* timing function start */
+h1{
+	text-align: center;
+}
+div{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation:  yeasin 10s infinite;
+}
+.red{
+   background: red;
+   animation-timing-function: linear;
+}
+.blue{
+   background: blue;
+   animation-timing-function: ease;
+}
+.green{
+   background: green;
+   animation-timing-function: ease-in;
+}
+.yellow{
+   background: yellow;
+   animation-timing-function: ease-out;
+}
+.black{
+   background: black;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes yeasin {
+	from {
+		left: 0;
+	}
+	to {
+		left: 500px;
+	}
+}
+/* timing function end */
+/* semantic elements start */
+span{
+	background-color: burlywood;
+   display: block;
+}
+ol{
+	color: whitesmoke;
+    line-height: 32px;
+}
+/* semantic elements end */
